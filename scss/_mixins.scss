@@ -1,0 +1,13 @@
+@mixin default-font {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: $font-primary;
+    
+}
+
+@mixin center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
