@@ -12,20 +12,23 @@
 </head>
 <body>
     <div id="registration-form">
-        <div class="container">
+        <div class="container border">
             <form class="mt-5">
+                <div class="header mb-5 align-items-center">
+                    <h1>Register here</h1>
+                </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <label for="firstName">Firstname</label>
+                        <label for="firstName">Firstname <span class="text-red">*</span></label>
                         <input type="text" class="form-control" id="firstName" required>
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="lastName">Lastname</label>
+                        <label for="lastName">Lastname <span class="text-red">*</span></label>
                         <input type="text" class="form-control" id="lastName" required>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputAddress">Billing address</label>
+                    <label for="inputAddress">Billing address <span class="text-red">*</span></label>
                     <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St.." required>
                 </div>
                 <div class="form-group">
@@ -34,50 +37,69 @@
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-10 col-8">
-                        <label for="inputCity">City</label>
+                        <label for="inputCity">City <span class="text-red">*</span></label>
                         <input type="text" class="form-control" id="inputCity" required>
                     </div>
                     
                     <div class="form-group col-md-2 col-4">
-                        <label for="inputZip">Zip</label>
+                        <label for="inputZip">Zip code <span class="text-red">*</span></label>
                         <input type="text" class="form-control" id="inputZip" required>
                     </div>
                 </div>
                 <div class="form-row">
-                    <div class="form-group col-md-6">
-                      <label for="inputEmail4">Email</label>
+                    <div class="form-group col-md-4">
+                      <label for="inputEmail4">Email <span class="text-red">*</span></label>
                       <input type="email" class="form-control" id="inputEmail4" required>
                     </div>
-                    <div class="form-group col-md-6">
-                      <label for="inputPassword4">Password</label>
-                      <input type="password" class="form-control" id="inputPassword4" required>
-                    </div>
+                    <div class="form-group col-6 col-md-4">
+                        <label for="inputPassword4">Password <span class="text-red">*</span></label>
+                        <input type="password" class="form-control" id="inputPassword4" required>
+                      </div>
+                      <div class="form-group col-6 col-md-4">
+                          <label for="inputPassword2"> Confirm password <span class="text-red">*</span></label>
+                          <input type="password" class="form-control" id="inputPassword2" required>
+                        </div>
                 </div>
                 <div class="form-group align-items-center">
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" id="gridCheck" required>
                         <label class="form-check-label" for="gridCheck">
-                        Jag godkänner villkoren enligt nedan
+                        Jag godkänner villkoren enligt nedan<span class="text-red">*</span>
                         </label>
                         <p>Jag är medveten om att angivna företags- och personuppgifter lagras av "mitt företag" i syfte att kunna hantera era ärenden och att jag genom att skicka in detta formulär samtycker till denna lagring. Uppgifterna kan även att komma att användas i marknadsföringssammanhang för "mitt företag". Uppgifterna delas ej med tredje part.</p>
                     </div>
-                    <div class="form-group align-items-center mt-4">
+                    <div class="form-group mt-4">
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="newsCheckbox" required>
                             <label class="form-check-label" for="newsCheckbox">
-                            Jag godkänner nyhets- och reklamutskick
+                            Jag godkänner nyhets- och reklamutskick<span class="text-red">*</span>
                             </label>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary mt-3">Sign in</button>
+                    <button type="submit" class="btn btn-primary mt-3 mb-3 ">Sign up</button>
                 </div>
             </form>
         </div>
     </div>
 
     <div id="login-form">
-        <div class="container">
-
+        <div class="container border mt-5">
+            <form class="mt-5">
+                <div class="form-row">
+                    <div class="form-group col-12 col-md-6">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group col-12 col-md-6">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                   
+                    <button type="submit" class="btn btn-primary mt-3 mb-3">Submit</button>
+                   
+                    
+                </div>
+            </form>
 
         </div>
     </div>

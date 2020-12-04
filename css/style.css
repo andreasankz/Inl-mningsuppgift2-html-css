@@ -12,6 +12,16 @@ html, body {
   color: #000000;
 }
 
+.text-red {
+  color: #970707;
+}
+
+.border {
+  border: 1px solid;
+  border-radius: 1%;
+  background-color: #cccccc;
+}
+
 .d-flex {
   display: flex;
 }
@@ -57,17 +67,25 @@ html, body {
   }
 }
 
-#registration-form .form-group .form-check {
-  text-align: center;
-  margin-top: 1rem;
+#registration-form .header {
+  color: #007BFF;
+  text-decoration: underline;
 }
 
-#registration-form .form-group .form-check p {
+#registration-form .form-check {
+  margin-top: 2rem;
+}
+
+#registration-form .form-check p {
   margin-top: 0.5rem;
   font-size: 12px;
 }
 
 #registration-form .btn {
   font-size: 1.5rem;
-  padding: .400rem 1rem;
+  padding: .400rem 2rem;
+}
+
+#login-form .form-row {
+  justify-content: center;
 }

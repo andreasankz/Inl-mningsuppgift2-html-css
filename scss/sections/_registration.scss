@@ -1,22 +1,21 @@
 #registration-form {
+    .header {
+        color: $blue;
+        text-decoration: underline;
+        
+    }
 
-    .form-group .form-check {
-        text-align: center;
-        margin-top: 1rem;
+    .form-check {
+        margin-top: 2rem;
 
         p {
             margin-top: 0.5rem;
             font-size: 12px;
         }
-
-       
     }
 
     .btn {
         font-size: 1.5rem;
-        padding: .400rem 1rem;
+        padding: .400rem 2rem;
     }
-
-    
-    
 }
