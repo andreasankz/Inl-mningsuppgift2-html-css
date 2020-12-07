@@ -1,8 +1,17 @@
 #login-form {
     .form-row {
         justify-content: center;
+
+        .btn {
+            font-size: 1.5rem;
+            padding: .400rem 2rem;
+        }
     }
 
+    .header {
+        color: $blue;
+        text-decoration: underline;
+    }
 
        
     
