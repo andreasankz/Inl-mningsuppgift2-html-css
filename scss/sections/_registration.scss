@@ -2,7 +2,16 @@
     .header {
         color: $blue;
         text-decoration: underline;
+    }
+
+    .form-control {
+        border-radius: 8px;
+    }
         
+    .divider {
+        border-bottom: 3px solid $blue;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
 
     .form-check {

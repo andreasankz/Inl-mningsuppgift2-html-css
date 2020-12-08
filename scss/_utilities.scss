@@ -1,15 +1,10 @@
-
-
-
 .text-red {
     color: $red;
 }
 
 .border {
-    border: 1px solid ;
-    border-radius: 1%;
+    border-radius: 10px;
     background-color: $lighter-gray;
-    
 }
 
 .d-flex {
@@ -44,5 +39,4 @@
     @include xxl {
         max-width: $breakpoint-xxl-max-width;
     }
-    
 }
